@@ -36,13 +36,27 @@
         <h2>Добавить питомца</h2>
         <form action="">
             <div class="form-img"></div>
-            <input type="number" name="id" min="1" required placeholder="id">
-            <input type="number" name="age" placeholder="Возраст">
-            <input type="text" name="name" required placeholder="Имя">
-            <input type="number" name="rate" placeholder="Рейтинг (0-10)" min="0" max="10">
-            <textarea name="description" placeholder="Описание"></textarea>
-            <label>Любимчик <input type="checkbox" name="favourite" placeholder=""></label>
-            <input type="text" name="img_link" placeholder="Ссылка на фото">
+            <label>
+                <input type="number" name="id" min="1" required placeholder="id">
+            </label>
+            <label>
+                <input type="number" name="age" placeholder="Возраст">
+            </label>
+            <label>
+                <input type="text" name="name" required placeholder="Имя">
+            </label>
+            <label>
+                <input type="number" name="rate" placeholder="Рейтинг (0-10)" min="0" max="10">
+            </label>
+            <label>
+                <textarea name="description" placeholder="Описание"></textarea>
+            </label>
+            <label>Любимчик
+                <input type="checkbox" name="favourite" placeholder="">
+            </label>
+            <label>
+                <input type="text" name="img_link" placeholder="Ссылка на фото">
+            </label>
             <button type="submit">Добавить котика</button>
         </form>
     </div>
